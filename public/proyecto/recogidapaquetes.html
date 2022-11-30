@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vista recogida de paquetest</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/imagenes/instaya.jpg" alt="" width="60" height="40">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Envío de paquetes</a></li>
+                      <li><a class="dropdown-item" href="#">Recogida de paquetes</a></li>
+                      <li><a class="dropdown-item" href="#">Rastrea tu envío</a></li>
+                      <li><a class="dropdown-item" href="#">Centro de recibos</a></li>         
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contáctenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quienes somos</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              <button class="btn btn-outline-success" type="submit">Iniciar sesión</button>
+              <button class="btn btn-outline-success" type="submit">Registrarse</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            Recogida
+        </div>
+        <div class="col">
+            Destino
+        </div>
+        <div class="col">
+            Envío
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <form action="/registro" method="post">
+                <p>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputEmail4" class="form-label">Nombre remitente</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col">
+                            <label for="inputPassword4" class="form-label">Apellido remitente</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputEmail4" class="form-label">Documento identidad</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col">
+                            <label for="inputPassword4" class="form-label">teléfono</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="row g-3">
+                            <div class="col">
+                                <label for="inputEmail4" class="form-label">Dirección de recogida</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col">
+                                <label for="inputPassword4" class="form-label">Departamento</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col">
+                                <label for="inputEmail4" class="form-label">Ciudad</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col">
+                                <label for="inputPassword4" class="form-label">Fecha recogida</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col">
+                                <label for="inputEmail4" class="form-label">Franja del día disponible recogida</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            
+                        </div>
+                    </div>
+                 
+                </p>
+                
+               
+            </form>
+        </div>
+        <div class="col">
+            <form action="/registro" method="post">
+                <p>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputEmail4" class="form-label">Nombre destinatario</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col">
+                            <label for="inputPassword4" class="form-label">Apellido destinatario</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputEmail4" class="form-label">Documento identidad</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col">
+                            <label for="inputPassword4" class="form-label">teléfono</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="row g-3">
+                            <div class="col">
+                                <label for="inputEmail4" class="form-label">Dirección de entrega</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col">
+                                <label for="inputPassword4" class="form-label">Departamento</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col">
+                                <label for="inputEmail4" class="form-label">Ciudad</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                           
+                            
+                        </div>
+                    </div>
+                 
+                </p>
+                
+               
+            </form>
+        </div>
+        <div class="col">
+            <form action="/registro" method="post">
+                <p>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputEmail4" class="form-label">Tipo de envío</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        
+                    </div>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="inputEmail4" class="form-label">Dimensiones</label>
+                            
+                        </div>
+                        
+                        <div class="row g-3">
+                            <div class="col">
+                                <label for="inputEmail4" class="form-label">Ancho</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col">
+                                <label for="inputPassword4" class="form-label">Alto</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col">
+                                <label for="inputEmail4" class="form-label">Largo</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col">
+                                <label for="inputPassword4" class="form-label">Peso</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+                        
+                    </div>
+                 
+                </p>
+                
+                <input type="submit" value="Enviar" name="btnEnviar">
+            </form>
+        </div>
+
+
+        
+    </div>
+    
+</div>
+</body>
+</html>
